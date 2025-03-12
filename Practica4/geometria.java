@@ -10,8 +10,8 @@ public class geometria {
         return base * altura;
     }
 
-    public static double area(double base, double altura, String triangulo) {
-        return (base * altura) / 2;
+    public static double area(double cateto1, double cateto2, String triangulo_rect) {
+        return (cateto1 * cateto2) / 2;
     }
 
     public static double area(double baseMayor, double baseMenor, double altura, String trapecio) {
@@ -24,10 +24,10 @@ public class geometria {
     }
 
     public static void main(String[] args) {
-        System.out.println("Área del círculo: " + area(5));
-        System.out.println("Área del rectángulo: " + area(4, 6));
-        System.out.println("Área del triángulo: " + area(3, 8, "triangulo"));
-        System.out.println("Área del trapecio: " + area(10, 6, 5, "trapecio"));
-        System.out.println("Área del pentágono: " + area("pentagono", 7, 5));
+        System.out.println("Area del circulo: " + area(5));
+        System.out.println("Area del rectangulo: " + area(4, 6));
+        System.out.println("Area del triangulo rectangulo: " + area(3, 8, "triangulo_rect"));
+        System.out.println("Area del trapecio: " + area(10, 6, 5, "trapecio"));
+        System.out.println("Area del pentagono: " + area("pentagono", 7, 5));
     }
 }

@@ -10,9 +10,9 @@ class Geometria:
             altura = args[1]
             return base * altura
         elif figura == "triangulo":
-            base = args[0]
-            altura = args[1]
-            return (base * altura) / 2
+            cateto1 = args[0]  
+            cateto2 = args[1]
+            return (cateto1 * cateto2) / 2
         elif figura == "trapecio":
             base_mayor = args[0]
             base_menor = args[1]
@@ -29,8 +29,8 @@ class Geometria:
 
 geometria = Geometria()
 
-print("Área del circulo:", geometria.area("circulo", 5))
-print("Área del rectangulo:", geometria.area("rectangulo", 4, 6))
-print("Área del triangulo:", geometria.area("triangulo", 3, 8))
-print("Área del trapecio:", geometria.area("trapecio", 10, 6, 5))
-print("Área del pentagono:", geometria.area("pentagono", 7, 5))
+print("Area del circulo:", geometria.area("circulo", 5))
+print("Area del rectangulo:", geometria.area("rectangulo", 4, 6))
+print("Area del triangulo rectangulo:", geometria.area("triangulo", 3, 8))
+print("Area del trapecio:", geometria.area("trapecio", 10, 6, 5))
+print("Area del pentagono:", geometria.area("pentagono", 7, 5))
