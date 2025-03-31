@@ -36,5 +36,6 @@ public class EstadisticasModular {
 
         scanner.close();
     }
-    
+   
 }
+
