@@ -38,7 +38,7 @@ class Linea extends JPanel {
     }
 }
     
-    public class LineaDibujo {
+public class LineaDibujo {
         public static void main(String[] args) {
             SwingUtilities.invokeLater(() -> {
                 Punto p1 = new Punto(3, 3);
@@ -47,4 +47,4 @@ class Linea extends JPanel {
                 linea.dibujarLinea();
             });
         }
-    }
+}

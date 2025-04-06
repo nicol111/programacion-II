@@ -129,7 +129,7 @@ public class AlgebraVectorial {
 
     public static void main(String[] args) {
         double[] vector1 = {1, 2, 3};
-        double[] vector2 = {4, 5, 6};
+        double[] vector2 = {-2, 1, 0};
 
         AlgebraVectorial algebra = new AlgebraVectorial(vector1, vector2);
 

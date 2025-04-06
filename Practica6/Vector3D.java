@@ -42,8 +42,8 @@ public class Vector3D {
     }
 
     public static void main(String[] args) {
-        Vector3D v1 = new Vector3D(1, 2, 3);
-        Vector3D v2 = new Vector3D(4, 5, 6);
+        Vector3D v1 = new Vector3D(2, 5,0);
+        Vector3D v2 = new Vector3D(4, 10, 0);
 
         System.out.print("v1: ");
         v1.imprimir();
@@ -61,9 +61,9 @@ public class Vector3D {
         System.out.print("Normal de v1: ");
         v1.normal().imprimir();
 
-        System.out.println("v1 · v2: " + v1.productoEscalar(v2));
+        System.out.println("producto escalar: " + v1.productoEscalar(v2));
 
-        System.out.print("v1 x v2: ");
+        System.out.print("productoVectorial: ");
         v1.productoVectorial(v2).imprimir();
     }
 }
