@@ -11,7 +11,7 @@ public class Juego {
 
     public void reiniciaPartida() {
         System.out.println("¡Nueva partida iniciada!");
-        numeroDeVidas = 3; // Puedes cambiar este valor si se quiere reiniciar con otra cantidad
+        numeroDeVidas = 3;
     }
 
     public void actualizaRecord() {

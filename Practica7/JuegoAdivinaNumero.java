@@ -2,8 +2,6 @@ package Practica7;
 import java.util.Scanner;
 import java.util.Random;
 
-import java.util.Scanner;
-import java.util.Random;
 
 public class JuegoAdivinaNumero extends Juego {
     protected int numeroAAdivinar;
@@ -19,7 +17,7 @@ public class JuegoAdivinaNumero extends Juego {
     public void juega() {
         reiniciaPartida();
         Random random = new Random();
-        numeroAAdivinar = random.nextInt(11); // Número entre 0 y 10
+        numeroAAdivinar = random.nextInt(11);
 
         Scanner scanner = new Scanner(System.in);
 
