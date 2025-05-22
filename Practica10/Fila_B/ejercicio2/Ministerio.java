@@ -1,6 +1,7 @@
 package Practica10.Fila_B.ejercicio2;
 
 public class Ministerio {
+    // inciso a)
     String nombre;
     String direccion;
     int nroEmpleados;
@@ -8,7 +9,7 @@ public class Ministerio {
     int[] edades;
     double[] sueldos;
 
-    // inciso a)
+    
     // Constructor 1
     public Ministerio(String nombre, String direccion, String[] empleados, int[] edades, double[] sueldos) {
         this.nombre = nombre;
@@ -20,7 +21,7 @@ public class Ministerio {
     }
 
     // Constructor 2
-    
+
     public Ministerio(String nombre, String direccion) {
         this.nombre = nombre;
         this.direccion = direccion;

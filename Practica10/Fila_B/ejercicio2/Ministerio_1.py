@@ -1,5 +1,5 @@
 
-  # inciso c)
+# inciso c) python
 class Ministerio:
     def __init__(self, nombre, empleados=None, edades=None, sueldos=None):
         self.nombre = nombre
